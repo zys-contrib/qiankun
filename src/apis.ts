@@ -1,4 +1,4 @@
-import { noop } from 'lodash';
+import noop from 'lodash/noop';
 import { mountRootParcel, ParcelConfigObject, registerApplication, start as startSingleSpa } from 'single-spa';
 import { FrameworkConfiguration, FrameworkLifeCycles, LoadableApp, MicroApp, RegistrableApp } from './interfaces';
 import { loadApp, ParcelConfigObjectGetter } from './loader';
